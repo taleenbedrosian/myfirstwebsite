@@ -60,6 +60,34 @@ a{
     color:white;  
     text-decoration:none;
 }
+.services {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style individual services */
+.service {
+    background-color: #ecdbc0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style service titles */
+.service h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style service descriptions */
+.service p {
+    color: #666;
+    font-size: 16px;
+}
+
     
 </style>
 </head>
@@ -79,13 +107,23 @@ a{
   </header>
   
   <h1>Services</h1>
-  
-    <li>Programming</li>
-    <li>Informational Technology</li>
-    <li>Python</li>
-    <li>AI</li>
-    <li>Jira</li>
-    <li>Web Dev</li>
+
+  <main>
+    <section class="services">
+        <div class="service">
+            <h2>Web Development</h2>
+            <p>Creating websites using various languages ie. html, css, js, express, node js.</p>
+        </div>
+        <div class="service">
+            <h2>Mobile App Development</h2>
+            <p>Creating functional apps using python and Andriod studio. </p>
+        </div>
+        <div class="service">
+            <h2>Informational Technology</h2>
+            <p>It ticketing systems. Creating and implementing tickets for business functionality.</p>
+        </div>
+    </section>
+</main>
 </body>
 </html>
 
